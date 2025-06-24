@@ -43,3 +43,11 @@ else:
     print('We are not playing...😔')
 
 print(f'You got {score} answers right')
+if score == 5:
+    print('You were Excellent! 🎉')
+
+elif score >= 3:
+    print('You did a good job! 🫡')
+
+else:
+    print('Try again soon! 😔')
